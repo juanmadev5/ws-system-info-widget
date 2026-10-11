@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.12224.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WsSystemInfoWidget.Core", "src\WsSystemInfoWidget.Core\WsSystemInfoWidget.Core.csproj", "{5307138F-C990-4B02-9562-81553060F7DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WsSystemInfoWidget.Infrastructure", "src\WsSystemInfoWidget.Infrastructure\WsSystemInfoWidget.Infrastructure.csproj", "{E8EAE333-DEFA-4853-9D0B-C71DE6C76F35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WsSystemInfoWidget.Widget", "src\WsSystemInfoWidget.Widget\WsSystemInfoWidget.Widget.csproj", "{A019E0FC-7201-4FAA-B313-6BFE046D202E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WsSystemInfoWidget.Core.Tests", "tests\WsSystemInfoWidget.Core.Tests\WsSystemInfoWidget.Core.Tests.csproj", "{19987078-0C09-43E2-B4FA-AC2E84EAC8AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WsSystemInfoWidget.Infrastructure.Tests", "tests\WsSystemInfoWidget.Infrastructure.Tests\WsSystemInfoWidget.Infrastructure.Tests.csproj", "{53C476B7-48A3-4209-9476-E007717ACD35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5307138F-C990-4B02-9562-81553060F7DE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5307138F-C990-4B02-9562-81553060F7DE}.Debug|x64.Build.0 = Debug|Any CPU
+		{5307138F-C990-4B02-9562-81553060F7DE}.Release|x64.ActiveCfg = Release|Any CPU
+		{5307138F-C990-4B02-9562-81553060F7DE}.Release|x64.Build.0 = Release|Any CPU
+		{E8EAE333-DEFA-4853-9D0B-C71DE6C76F35}.Debug|x64.ActiveCfg = Debug|x64
+		{E8EAE333-DEFA-4853-9D0B-C71DE6C76F35}.Debug|x64.Build.0 = Debug|x64
+		{E8EAE333-DEFA-4853-9D0B-C71DE6C76F35}.Release|x64.ActiveCfg = Release|x64
+		{E8EAE333-DEFA-4853-9D0B-C71DE6C76F35}.Release|x64.Build.0 = Release|x64
+		{A019E0FC-7201-4FAA-B313-6BFE046D202E}.Debug|x64.ActiveCfg = Debug|x64
+		{A019E0FC-7201-4FAA-B313-6BFE046D202E}.Debug|x64.Build.0 = Debug|x64
+		{A019E0FC-7201-4FAA-B313-6BFE046D202E}.Debug|x64.Deploy.0 = Debug|x64
+		{A019E0FC-7201-4FAA-B313-6BFE046D202E}.Release|x64.ActiveCfg = Release|x64
+		{A019E0FC-7201-4FAA-B313-6BFE046D202E}.Release|x64.Build.0 = Release|x64
+		{19987078-0C09-43E2-B4FA-AC2E84EAC8AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{19987078-0C09-43E2-B4FA-AC2E84EAC8AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{19987078-0C09-43E2-B4FA-AC2E84EAC8AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{19987078-0C09-43E2-B4FA-AC2E84EAC8AE}.Release|x64.Build.0 = Release|Any CPU
+		{53C476B7-48A3-4209-9476-E007717ACD35}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{53C476B7-48A3-4209-9476-E007717ACD35}.Debug|x64.Build.0 = Debug|Any CPU
+		{53C476B7-48A3-4209-9476-E007717ACD35}.Release|x64.ActiveCfg = Release|Any CPU
+		{53C476B7-48A3-4209-9476-E007717ACD35}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D581E01B-948A-4821-9343-F510E6C76B76}
+	EndGlobalSection
+EndGlobal

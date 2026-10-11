@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>WsSystemInfoWidget.Widget</RootNamespace>
+    <AssemblyName>WsSystemInfoWidget.Widget</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Platforms>x64;arm64</Platforms>
+    <RuntimeIdentifiers>win-x64;win-arm64</RuntimeIdentifiers>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget Condition="'$(Platform)' == 'arm64'">ARM64</PlatformTarget>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <EnableMsixTooling>true</EnableMsixTooling>
+    <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
+    <!-- Workstation GC without the background/concurrent thread keeps the
+         working set smallest for a low-priority, mostly-idle background
+         widget process; this app has no UI thread to protect from GC pauses. -->
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <TieredPGO>false</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WsSystemInfoWidget.Core\WsSystemInfoWidget.Core.csproj" />
+    <ProjectReference Include="..\WsSystemInfoWidget.Infrastructure\WsSystemInfoWidget.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AdaptiveCards\Templates\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\**" />
+    <Content Include="ProviderAssets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WidgetHeaderTitle" xml:space="preserve">
+    <value>Estado del sistema</value>
+  </data>
+  <data name="CpuCardTitle" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="RamCardTitle" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="GpuCardTitle" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="NetworkCardTitle" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="NetworkUploadLabel" xml:space="preserve">
+    <value>↑</value>
+  </data>
+  <data name="NetworkDownloadLabel" xml:space="preserve">
+    <value>↓</value>
+  </data>
+  <data name="NetworkUnavailable" xml:space="preserve">
+    <value>Sin conexión activa</value>
+  </data>
+  <data name="DiskCardTitle" xml:space="preserve">
+    <value>Actividad del disco</value>
+  </data>
+  <data name="DiskReadLabel" xml:space="preserve">
+    <value>L:</value>
+  </data>
+  <data name="DiskWriteLabel" xml:space="preserve">
+    <value>E:</value>
+  </data>
+  <data name="DiskFreeOfTotalFormat" xml:space="preserve">
+    <value>{0} libres de {1}</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Información del sistema</value>
+  </data>
+  <data name="WidgetDisplayName" xml:space="preserve">
+    <value>Información del sistema</value>
+  </data>
+  <data name="WidgetDefinitionDisplayName" xml:space="preserve">
+    <value>Estado del sistema</value>
+  </data>
+  <data name="VramCardTitle" xml:space="preserve">
+    <value>VRAM</value>
+  </data>
+</root>
